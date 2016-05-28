@@ -3,18 +3,19 @@ package module02_part03;
 /**
  * Created by Andrew on 28.05.2016.
  */
-public class MusicInstrument {
+public class MusicInstrument extends MusicShop {
     private String InstrumentType;
-    private int Price;
+    public int Price;
 
-    public void SetInstrumentType() {
-        return null;
+    public void SetInstrumentType(String) {
+        return String;
     }
 
     public String GetInstrumentType() {
+        return null;
     }
 
-    public void SetPrice() {
+    private void SetPrice() {
     }
 
     public int GetPrice() {

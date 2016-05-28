@@ -8,10 +8,10 @@ public class File {
     public String FileType;
     public int FileSize;
 
-    public void SetFileName() {
+    public void SetFileName(String String) {
     }
 
-    public String SetFileType() {
+    public String SetFileType(String String) {
         return null;
     }
 

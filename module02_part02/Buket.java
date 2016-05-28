@@ -14,7 +14,7 @@ public class Buket {
     public void RemoveFlower() {
     }
 
-    public List GetFlower(List FlowerList) {
+    public List GetFlower(Flower) {
         return null;
     }
 }

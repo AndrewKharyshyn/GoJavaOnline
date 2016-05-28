@@ -3,11 +3,11 @@ package module02_part02;
 /**
  * Created by Andrew on 28.05.2016.
  */
-public class Flower implements Buket {
-    private String FlowerType;
-    private int FlowerSize;
+public class Flower extends Buket {
+    public String FlowerType;
+    public int FlowerSize;
 
-    private String SetFlowerType(String) {
+    public String SetFlowerType(String FlowerType) {
         return String;
     }
 

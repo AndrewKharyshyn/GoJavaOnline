@@ -8,7 +8,8 @@ import java.util.List;
 public class RozeBush extends Roze {
     private java.util.List RozeList;
 
-    public List GetRoze() {
+    public void GetRoze() {
+        return ;
     }
 
     public void SetRoze() {

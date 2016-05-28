@@ -12,7 +12,7 @@ public class ImageFile extends File {
         return 0;
     }
 
-    public String SetColorScheme() {
+    public String SetColorScheme(String String) {
         return null;
     }
 
