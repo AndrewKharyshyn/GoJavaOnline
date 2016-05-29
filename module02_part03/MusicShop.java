@@ -1,16 +1,14 @@
 package module02_part03;
 
 import java.util.List;
-
-/**
- * Created by Andrew on 28.05.2016.
- */
 public class MusicShop {
-    private java.util.List InstrumentList;
+    List<MusicInstrument> Instruments;
 
-    public void SetInstrument(List MusicInstrument) {
+    public List<MusicInstrument> getInstruments() {
+        return Instruments;
     }
 
-    public void GetInstrument() {
+    public void setInstruments(List<MusicInstrument> Instruments) {
+        this.Instruments = Instruments;
     }
 }

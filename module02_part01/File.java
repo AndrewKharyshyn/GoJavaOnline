@@ -8,22 +8,23 @@ public class File {
     public String FileType;
     public int FileSize;
 
-    public void SetFileName(String String) {
+    public void setFileName(String FileName) {
+        this.FileName = FileName;
     }
 
-    public String SetFileType(String String) {
-        return null;
+    public void setFileType(String FileType) {
+        this.FileType = FileType;
     }
 
-    public String GetFileName() {
-        return null;
+    public String getFileName() {
+        return FileName;
     }
 
-    public int GetFileSize() {
-        return 0;
+    public int getFileSize() {
+        return FileSize;
     }
 
-    public String GetFileType() {
-        return null;
+    public String getFileType() {
+        return FileType;
     }
 }

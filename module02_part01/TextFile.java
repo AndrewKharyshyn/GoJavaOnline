@@ -7,11 +7,11 @@ public class TextFile extends File {
     private String Encoding;
     private int CharNumber;
 
-    public String GetEncoding() {
-        return null;
+    public String getEncoding() {
+        return Encoding;
     }
 
-    public int GetCharNumber() {
-        return 0;
+    public int getCharNumber() {
+        return CharNumber;
     }
 }

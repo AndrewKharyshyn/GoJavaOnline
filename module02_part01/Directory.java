@@ -1,20 +1,17 @@
 package module02_part01;
 
+
 import java.util.List;
 
-/**
- * Created by Andrew on 28.05.2016.
- */
 public class Directory {
-    private java.util.List FilesList;
+    public List<File> FileSpisok;
 
-    private List GetFilesList() {
-        return null;
+    public List getFile (List<File> FileSpisok) {
+        return FileSpisok;
     }
 
-    public void AddFile() {
+    public void setFileSpisok(List<File> File) {
+        this.FileSpisok = File;
     }
 
-    public void DeleteFile() {
-    }
 }

@@ -8,16 +8,16 @@ public class AudioFile extends File {
     private int HzFrequency;
     private String CompressionRate;
 
-    public int GetBitrate() {
-        return 0;
+    public int getBitRate() {
+        return BitRate;
     }
 
-    public int GetHzFrequency() {
-        return 0;
+    public int getHzFrequency() {
+        return HzFrequency;
     }
 
-    public String GetCompressionRate() {
-        return null;
+    public String getCompressionRate() {
+        return CompressionRate;
     }
 
     public void PlayFile() {

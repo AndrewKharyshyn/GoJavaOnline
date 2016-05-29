@@ -4,28 +4,29 @@ package module02_part01;
  * Created by Andrew on 28.05.2016.
  */
 public class ImageFile extends File {
-    private int Resolution;
-    private String ColorScheme;
-    private boolean IsColored;
+    public int FileResolution;
+    public String ColorScheme;
+    public boolean IsColored;
 
-    public int SetResolution() {
-        return 0;
+    public void setFileResolution(int FileResolution)
+    {
+        this.FileResolution = FileResolution;
     }
 
-    public String SetColorScheme(String String) {
-        return null;
+    public void setColorScheme(String ColorScheme) {
+       this.ColorScheme = ColorScheme;
     }
 
-    public int GetResolution() {
-        return 0;
+    public int getFileResolution() {
+        return FileResolution;
     }
 
-    public String GetColorScheme() {
-        return null;
+    public String getColorScheme() {
+        return ColorScheme;
     }
 
-    public boolean GetIsColored() {
-        return false;
+    public boolean getIsColored() {
+        return IsColored;
     }
 
     public void CreateImage() {

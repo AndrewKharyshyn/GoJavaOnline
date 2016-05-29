@@ -1,25 +1,23 @@
 package module02_part02;
 
-/**
- * Created by Andrew on 28.05.2016.
- */
-public class Flower extends Buket {
+public class Flower {
     public String FlowerType;
     public int FlowerSize;
 
-    public String SetFlowerType(String FlowerType) {
-        return String;
+    public void setFlowerType(String FlowerType) {
+        this.FlowerType = FlowerType;
     }
 
-    public String GetFlowerType() {
-        return null;
+    public String getFlowerType() {
+        return FlowerType;
     }
 
-    public int SetFlowerSize() {
-        return 0;
+    public void setFlowerSize(int FlowerSize)
+    {
+        this.FlowerSize = FlowerSize;
     }
 
-    public int GetFlowerSize() {
-        return 0;
-    }
-}
+    public int getFlowerSize(int FlowerSize) {
+            return FlowerSize;
+        }
+        }

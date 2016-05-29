@@ -2,16 +2,13 @@ package module02_part02;
 
 import java.util.List;
 
-/**
- * Created by Andrew on 28.05.2016.
- */
-public class RozeBush extends Roze {
-    private java.util.List RozeList;
+public class RozeBush {
+    public List<Roze> Roze;
 
-    public void GetRoze() {
-        return ;
+    public List<Roze> getRoze() {
+        return Roze;
     }
 
-    public void SetRoze() {
+    public void setRozeList() {
     }
 }
